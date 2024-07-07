@@ -4,7 +4,9 @@ import React from 'react';
 import Squre from './squre';
 
 export default function Board(props) {
-	let rendSqure = (i) => <Squre value={props.squars[i]} onClick={()=> props.onClick(i)} />;
+	let rendSqure = (i) => (
+		<Squre value={props.squars[i]} onClick={props.onClick(i)} />
+	);
 
 	return (
 		<div className='mt-5 '>

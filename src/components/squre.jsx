@@ -2,10 +2,12 @@
 
 import React from 'react';
 
-export default function Squre(props) {
+export default function Squre({ value, onSquareClick }) {
 	return (
 		<div>
-            <button className='  squre ' onClick={props.onClick}>{props.value }</button>
+			<button className='squre' onClick={onSquareClick}>
+				{value}
+			</button>
 		</div>
 	);
 }

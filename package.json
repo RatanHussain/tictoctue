@@ -36,5 +36,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "I made it for only educational purpose",
+  "main": "index.js",
+  "author": "Ratan",
+  "license": "ISC"
 }
