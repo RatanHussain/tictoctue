@@ -2,12 +2,12 @@
 
 import React from 'react';
 
-export default function Squre({ value, onSquareClick }) {
+function Square({ value, onSquareClick }) {
 	return (
-		<div>
-			<button className='squre' onClick={onSquareClick}>
-				{value}
-			</button>
-		</div>
+		<button className='square btn btn-outline-info' onClick={onSquareClick}>
+			{value}
+		</button>
 	);
 }
+
+export default Square
